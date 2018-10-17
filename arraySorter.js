@@ -1,6 +1,3 @@
-let testArr = [-3, 1, 4, 8, -6, -7, -13, 3, 7];
-let testArr2 = [4, -8, 3, -2, 1, -7, 9, -10, -5]
-
 let randomArrayGenerator = (arrLength) => {
     let testArray = [];
     for (let i = 0; i < arrLength; i++) {
@@ -9,7 +6,9 @@ let randomArrayGenerator = (arrLength) => {
     return testArray;
 }
 
-let testArr3 = randomArrayGenerator(100);
+let testArr = randomArrayGenerator(10);
+let testArr2 = randomArrayGenerator(100)
+let testArr3 = randomArrayGenerator(1000);
 
 let arraySorter = (arr) => {
     arr.forEach((el, ind) => {
